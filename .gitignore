@@ -1,0 +1,44 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+*.spec
+
+# --- Virtual env ---
+.venv/
+venv/
+env/
+
+# --- IDE / editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# --- Secrets (NEVER commit these) ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+config.local.*
+
+# --- Project data / logs ---
+*.log
+*.db
+*.sqlite
+*.sqlite3
+data/
+logs/
+
+# --- PyInstaller output ---
+*.exe
